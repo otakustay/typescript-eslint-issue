@@ -1,0 +1,35 @@
+{
+    "include": [
+        "src",
+        "types"
+    ],
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "es2018",
+        "noEmit": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "lib": [
+          "es2018",
+          "dom"
+        ],
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "strict": true,
+        "noUnusedLocals": false,
+        "noFallthroughCasesInSwitch": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"]
+        },
+        "jsx": "preserve",
+        "allowJs": true,
+        "keyofStringsOnly": true,
+        "isolatedModules": true,
+        "skipLibCheck": true,
+        "typeRoots": [
+            "node_modules/@types",
+            "types"
+        ]
+    }
+}
